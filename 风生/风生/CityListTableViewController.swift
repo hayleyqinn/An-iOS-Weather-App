@@ -130,9 +130,11 @@ class CityListTableViewController: UITableViewController {
     override func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCellEditingStyle, forRowAt indexPath: IndexPath) {
         if editingStyle == UITableViewCellEditingStyle.delete {
             self.cityList.remove(at: indexPath.row)
-            self.tmpList.remove(at: indexPath.row)
-            self.tmpArr.remove(at: indexPath.row)
-            //tableView.reloadData()
+            if self.tmpList.count > 0 {
+                self.tmpList.remove(at: indexPath.row)
+                self.tmpArr.remove(at: indexPath.row)
+
+            }
             UserDefaults.standard.set(self.cityList, forKey: "city")
             tableView.deleteRows(at: [indexPath], with: UITableViewRowAnimation.automatic)
         }
