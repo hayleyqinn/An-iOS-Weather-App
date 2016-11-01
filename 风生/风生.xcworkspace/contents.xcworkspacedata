@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:WechatKit-master/WechatKit.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:JSONNeverDie-swift3/JSONNeverDie.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:&#x98ce;&#x751f;.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Pods/Pods.xcodeproj">
+   </FileRef>
+</Workspace>

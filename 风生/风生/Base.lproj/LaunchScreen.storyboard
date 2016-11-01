@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11542" systemVersion="16B2555" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina5_5" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Llm-lL-Icb"/>
+                        <viewControllerLayoutGuide type="bottom" id="xb3-aO-Qok"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="launch" translatesAutoresizingMaskIntoConstraints="NO" id="JOS-GF-2KC">
+                                <rect key="frame" x="0.0" y="194" width="414" height="229"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="229" id="mFq-ua-nrz"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="风生" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="geu-KB-Xqu">
+                                <rect key="frame" x="158.66666666666666" y="141" width="97" height="45"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="45" id="fo6-n4-TuA"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="ultraLight" pointSize="48"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="powered by 和风天气" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="W2Q-nK-LZh">
+                                <rect key="frame" x="141.66666666666669" y="707" width="130.00000000000006" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="130" id="IMs-o9-zPk"/>
+                                    <constraint firstAttribute="height" constant="21" id="ehO-0z-2ds"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <color key="textColor" red="0.74252458756345185" green="0.74252458756345185" blue="0.74252458756345185" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="highlightedColor" red="0.59311548223350252" green="0.59311548223350252" blue="0.59311548223350252" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="W2Q-nK-LZh" secondAttribute="bottom" constant="8" symbolic="YES" id="Dfd-QJ-ZCh"/>
+                            <constraint firstItem="JOS-GF-2KC" firstAttribute="centerX" secondItem="W2Q-nK-LZh" secondAttribute="centerX" id="IQ5-4d-DjN"/>
+                            <constraint firstItem="JOS-GF-2KC" firstAttribute="top" secondItem="geu-KB-Xqu" secondAttribute="bottom" constant="8" symbolic="YES" id="Nfw-cd-RmA"/>
+                            <constraint firstItem="geu-KB-Xqu" firstAttribute="centerX" secondItem="JOS-GF-2KC" secondAttribute="centerX" id="OkT-R6-a8d"/>
+                            <constraint firstItem="JOS-GF-2KC" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="PVS-pB-xQJ"/>
+                            <constraint firstItem="geu-KB-Xqu" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" constant="121" id="rau-9Q-wcm"/>
+                            <constraint firstAttribute="trailing" secondItem="JOS-GF-2KC" secondAttribute="trailing" id="zn2-1J-deB"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52" y="374.66266866566718"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="launch" width="800" height="600"/>
+    </resources>
+</document>
