@@ -1,6 +1,6 @@
 # windWeather
 ###Develop for Xcode 8, Swift 3.
-Simple effcient pleasent weather.
+Simple effcient pleasent weather app.
 
 
 > Thinks to https://dribbble.com/MadeByElvis, these illustrations are so cute,and I just used for test. thinks again.Thinks to https://github.com/Alamofire/AlamofireImage and https://github.com/johnlui/JSONNeverDie.
