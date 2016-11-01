@@ -1,5 +1,5 @@
 # windWeather
-###Develop for Xcode 8, Swift 3.
+###Develop by Xcode 8, Swift 3.
 Simple effcient pleasent weather app.
 
 
