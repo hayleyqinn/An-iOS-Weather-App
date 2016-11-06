@@ -374,12 +374,13 @@ class ViewController: UIViewController,UITableViewDelegate, UITableViewDataSourc
             if Int(self.aqi.text!)! < 80 {
                 self.aqi.textColor = UIColor.green
                 self.aqiDes.textColor = UIColor.green
-            } else if Int(self.aqi.text!)! > 80 {
-                self.aqi.textColor = UIColor(red: 255/255, green: 103/255, blue: 0/255, alpha: 1)
-                self.aqiDes.textColor = UIColor(red: 255/255, green: 103/255, blue: 0/255, alpha: 1)
             } else if Int(self.aqi.text!)! > 200 {
                 self.aqi.textColor = UIColor.red
                 self.aqiDes.textColor = UIColor.red
+                self.aqiDes.text?.append("😷")
+            } else if Int(self.aqi.text!)! > 80 {
+                self.aqi.textColor = UIColor(red: 255/255, green: 103/255, blue: 0/255, alpha: 1)
+                self.aqiDes.textColor = UIColor(red: 255/255, green: 103/255, blue: 0/255, alpha: 1)
             }
             //city
             self.cityN.text = jsonArr[0]["basic"]["city"].stringValue
@@ -421,6 +422,8 @@ class ViewController: UIViewController,UITableViewDelegate, UITableViewDataSourc
                 self.conImage.image = UIImage(named: "rain")
             case "晴":
                 self.conImage.image = UIImage(named: "sunshine")
+            case "霾":
+                self.conImage.image = UIImage(named: "smog")
             default:
                 break
             }
