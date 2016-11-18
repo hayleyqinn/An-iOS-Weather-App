@@ -1,6 +1,6 @@
 # windWeather
 ###Developed by Xcode 8, Swift 3.
-Simple effcient pleasent weather app.
+Simple efficient pleasant weather app.
 
 
 > Thanks to https://dribbble.com/MadeByElvis, these illustrations are so cute,and I just used for test. thanks again.Thanks to https://github.com/Alamofire/AlamofireImage and https://github.com/johnlui/JSONNeverDie.
