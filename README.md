@@ -6,8 +6,8 @@ Simple efficient pleasant weather app.
 > Thanks to https://dribbble.com/MadeByElvis, these illustrations are so cute,and I just used for test. thanks again.Thanks to https://github.com/Alamofire/AlamofireImage and https://github.com/johnlui/JSONNeverDie.
 
 > Homepage
-![软件主页](http://7xuh4t.com1.z0.glb.clouddn.com/JPEG%20%E5%9B%BE%E5%83%8F-05D1FFFDD4D1-1.jpeg)
+![软件主页](https://www.jianguoyun.com/c/tblv2/CKjYGRIgWiiLdCul3iPo7L3kQUMQ5Vg6OBXEGhvHtuKJTRpFrdw/g86bUwRqDBQ/l)
 
 > City List
-![城市列表](http://7xuh4t.com1.z0.glb.clouddn.com/JPEG%20%E5%9B%BE%E5%83%8F-C4E2AAD865A7-1.jpeg)
+![城市列表](https://www.jianguoyun.com/c/tblv2/CKjYGRIgKxCrLoKPPquobqBTsRyOzf7vkpytid7DtuU_TLkJSEw/SKoi8AI3A7c/l)
 
